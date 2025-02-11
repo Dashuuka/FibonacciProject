@@ -25,9 +25,10 @@ uint64_t fibonacci(uint32_t n) {
 
 int main() {
     try {
-        const uint32_t target_index1 = 93; 
+        const uint32_t target_index1 = 93;
         std::cout << "Fibonacci[" << target_index1 << "] = "
             << fibonacci(target_index1) << std::endl;
+
         const uint32_t target_index2 = 98;
         std::cout << "Fibonacci[" << target_index2 << "] = "
             << fibonacci(target_index2) << std::endl;
